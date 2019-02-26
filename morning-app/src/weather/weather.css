@@ -1,0 +1,33 @@
+.weather-widget {
+    border: 2px solid;
+    border-radius: 10px;
+    width: 410px;
+}
+
+.current-weather {
+    text-align: left;
+}
+
+.container-current {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.five-day {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.day {
+    border-left: 3px;
+    border-right: 3px;
+}
+
+.forecast-icon {
+    display: block;
+}
+
+.current-temp {
+    font-size: 34px;
+}
